@@ -14,7 +14,7 @@ while(itr.hasNext()){
 System.out.print(itr.next().toUpperCase() + "_");
 }
 System.out.println();
-System.out.println("After: " + words);
+System.out.println("After:  " + words);
 }
 }
  
