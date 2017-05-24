@@ -38,8 +38,9 @@ public class Assignment3 {
 		                        if (number.get() % numOfThreads != threadId) {
 		                            monitor.wait();
 		                        } else {
+		                        	System.out.println("Printing Thread Details.");
 		                            System.out.println("ThreadId [" + threadId
-		                                    + "] printing -->"
+		                                    + "] printing --> "
 		                                    + number.getAndIncrement());
 		                            monitor.notifyAll();
 		                        }
