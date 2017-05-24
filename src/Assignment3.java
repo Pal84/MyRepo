@@ -39,7 +39,7 @@ public class Assignment3 {
 		                            monitor.wait();
 		                        } else {
 		                            System.out.println("ThreadId [" + threadId
-		                                    + "] printing -->"
+		                                    + "] printing --?"
 		                                    + number.getAndIncrement());
 		                            monitor.notifyAll();
 		                        }
