@@ -40,7 +40,7 @@ public class Assignment3 {
 		                        } else {
 		                        	System.out.println("Printing Thread Details.");
 		                            System.out.println("ThreadId [" + threadId
-		                                    + "] printing --> "
+		                                    + "] printing --?"
 		                                    + number.getAndIncrement());
 		                            monitor.notifyAll();
 		                        }
